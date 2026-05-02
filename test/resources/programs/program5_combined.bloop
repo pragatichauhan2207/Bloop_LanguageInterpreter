@@ -1,0 +1,19 @@
+# Bonus — All features combined
+# Tests assignment, arithmetic, strings, conditional, and loop together
+
+put 5 into base
+put 3 into multiplier
+put base * multiplier into total
+
+print "Base value:"
+print base
+print "Total:"
+print total
+
+if total > 10 then:
+    print "Total is large"
+
+put 1 into counter
+repeat 3 times:
+    print counter
+    put counter + 1 into counter

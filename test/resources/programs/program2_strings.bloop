@@ -1,0 +1,8 @@
+# Program 2 — String output
+# Expected output:
+# Sitare
+# Hello from BLOOP
+
+put "Sitare" into name
+print name
+print "Hello from BLOOP"

@@ -1,0 +1,23 @@
+# Extension: else block
+# Expected output:
+# Score: 85
+# Pass
+# ---
+# Score: 30
+# Fail
+
+put 85 into score
+print "Score: 85"
+if score > 50 then:
+    print "Pass"
+else:
+    print "Fail"
+
+print "---"
+
+put 30 into score
+print "Score: 30"
+if score > 50 then:
+    print "Pass"
+else:
+    print "Fail"

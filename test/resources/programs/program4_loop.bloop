@@ -1,0 +1,7 @@
+# Program 4 — Loop
+# Expected output: 1 2 3 4 (one per line)
+
+put 1 into i
+repeat 4 times:
+    print i
+    put i + 1 into i

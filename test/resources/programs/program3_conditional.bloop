@@ -1,0 +1,6 @@
+# Program 3 — Conditional
+# Expected output: Pass
+
+put 85 into score
+if score > 50 then:
+    print "Pass"
